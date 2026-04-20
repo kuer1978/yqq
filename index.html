@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/companylogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <title>怡氢泉官网 - 氢分子科技与主动健康领航者 | 水素生活</title>
+    <meta name="description" content="上海怡氢泉健康科技有限公司致力于推广氢分子医学、健康理念和氢农业。提供高浓度含氢包装饮用水、智能氢浴机及氢农业灌溉系统等全场景氢科技解决方案，助您开启纳米级主动健康新生活。" />
+    <meta name="keywords" content="怡氢泉, 水素生活, 氢分子医学, 氢水, 氢浴机, 氢农业, 纳米气泡, 主动健康, 氧化应激" />
+    <meta name="author" content="怡氢泉健康科技" />
+
+    <meta property="og:title" content="怡氢泉 - 让生命不再“生锈”" />
+    <meta property="og:description" content="全球氢分子生物科技领军者，为您提供全方位的氢健康管理方案。" />
+    <meta property="og:image" content="/companylogo.png" />
+    <meta property="og:type" content="website" />
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  </head>
+  <body className="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <style>
+      #root:empty::before {
+        content: "";
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        margin-left: -20px;
+        border-radius: 50%;
+        border: 3px solid #f3f3f3;
+        border-top-color: #2563eb;
+        animation: spinner 0.8s linear infinite;
+      }
+      @keyframes spinner {
+        to {transform: rotate(360deg);}
+      }
+      body {
+        margin: 0;
+       background-color: #557bb3;  /* 匹配您 Hero Section 的底色，防止首屏闪白 */
+      }
+    </style>
+  </body>
+</html>
