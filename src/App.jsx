@@ -39,7 +39,7 @@ const App = () => {
         <a href="#" className="flex items-center space-x-2 group cursor-pointer">
   {/* 替换原来的渐变背景+Droplets图标为图片logo */}
   <img 
-    src="/companylogo.png"  // 根据你图片的实际路径调整
+    src="./companylogo.png"  // 根据你图片的实际路径调整
     alt="怡氢泉" 
     className="h-10 w-auto object-contain group-hover:scale-105 transition-transform"
   />
@@ -226,21 +226,21 @@ const App = () => {
           <div className="bg-slate-200 aspect-square rounded-[3.5rem] overflow-hidden shadow-inner flex items-center justify-center">
   {activeTab === 'water' && (
     <img 
-      src="/gold.png" 
+      src="./gold.png" 
       alt="水素生活袋装水" 
       className="w-full h-full object-cover"
     />
   )}
   {activeTab === 'bath' && (
     <img 
-      src="/hydrogenbath.png" 
+      src="./hydrogenbath.png" 
       alt="智能氢浴机" 
       className="w-full h-full object-cover"
     />
   )}
   {activeTab === 'agri' && (
     <img 
-      src="/100T.jpg" 
+      src="./100T.jpg" 
       alt="氢水灌溉农业系统" 
       className="w-full h-full object-cover"
     />
@@ -348,14 +348,13 @@ const App = () => {
                <li>氢健康包装饮用水</li>
                <li>智能氢浴机系统</li>
                <li>微纳米气泡农业装备</li>
-               <li>半导体精密清洗</li>
              </ul>
           </div>
           <div>
              <h5 className="font-bold text-xs uppercase tracking-widest text-slate-400 mb-6">联系详情</h5>
              <ul className="text-sm space-y-3 text-slate-600">
                <li>181-1642-1859</li>
-               <li>info@likeh2.com</li>
+               <li>yiqingquan@likeh2.com</li>
                <li>上海市闵行区兴梅路579弄B1栋601shi</li>
              </ul>
           </div>
