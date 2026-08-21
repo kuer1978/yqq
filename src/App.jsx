@@ -355,7 +355,7 @@ const App = () => {
              <h5 className="font-bold text-xs uppercase tracking-widest text-slate-400 mb-6">联系详情</h5>
              <ul className="text-sm space-y-3 text-slate-600">
                <li>181-1642-1859</li>
-               <li>info@likeh2.com</li>
+               <li>yiqingquan@likeh2.com</li>
                <li>上海市闵行区兴梅路579弄B1栋601shi</li>
              </ul>
           </div>
